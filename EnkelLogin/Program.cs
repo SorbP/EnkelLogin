@@ -39,16 +39,17 @@ namespace EnkelLogin
 
         public static bool Login(string username, string password)
         {
-            try 
+            
             
         }  
             
         public static void WriteToFile()
         {
             using (StreamWriter sw = new StreamWriter(_userPwFile))
-           {
-               
-           }
+            {
+                
+            }
+
         }
         
         
